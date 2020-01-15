@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+# this is our root URLconf destination (as defined in the conf/settings file)
+# it routes these additional endpoints to a view
+# here the include method chops of whatever is at the end of our url and adds "\polls"
+# the method attaches polls.urls as the endpoint for that view where it will be routed further
+
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),

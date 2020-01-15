@@ -4,6 +4,12 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
+
+# added these models will create two additional tables: 
+# polls_choice, polls_question
+# the class level fields will be inserted into those tables
+# using the field names as column names in the tables
+
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')

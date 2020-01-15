@@ -19,3 +19,5 @@ note: this is a continuation of many basic django tutorials
 - use urls.py in each subdirectory for url mapping
     - note: you can pass variables between endpoints through the mapping process
     - after hitting a subdirectories urls.py page it's passed to the views page by giving it a route, view, and possibly name
+
+test

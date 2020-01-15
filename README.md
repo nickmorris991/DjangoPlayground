@@ -3,6 +3,7 @@
 - learn the django project layout
 - improve python web skillset
 - prepare for production grade django work / codebase 
+- note: this is a continuation of a provided django tutorial
 
 # notes 
 

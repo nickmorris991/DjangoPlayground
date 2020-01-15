@@ -13,11 +13,10 @@ note: this is a continuation of many basic django tutorials
 ### basic commands
 - python manage.py runserver (spin up local server at port :8000)
 - python manage.py migrate (update the connected backend server with most recent models)
+- python manage.py createsuperuser (creating an admin user)
 
 ### basic layout
 - similiar to mvc layout each landing page has its own directory where you can adjust models.py, views.py, etc
 - use urls.py in each subdirectory for url mapping
     - note: you can pass variables between endpoints through the mapping process
     - after hitting a subdirectories urls.py page it's passed to the views page by giving it a route, view, and possibly name
-
-
